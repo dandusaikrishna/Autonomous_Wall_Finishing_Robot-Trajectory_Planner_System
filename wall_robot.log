@@ -1,0 +1,18 @@
+2025-06-20 00:59:13,697 - INFO - Incoming request: GET http://localhost:8000/
+2025-06-20 00:59:13,706 - INFO - Completed request: GET http://localhost:8000/ in 0.0083 seconds
+2025-06-20 01:08:27,824 - INFO - Incoming request: POST http://127.0.0.1:8000/plan
+2025-06-20 01:08:27,835 - INFO - Completed request: POST http://127.0.0.1:8000/plan in 0.0097 seconds
+2025-06-20 01:08:41,301 - INFO - Incoming request: POST http://127.0.0.1:8000/trajectory
+2025-06-20 01:08:41,306 - INFO - Completed request: POST http://127.0.0.1:8000/trajectory in 0.0047 seconds
+2025-06-20 01:09:01,983 - INFO - Incoming request: GET http://127.0.0.1:8000/trajectory/1
+2025-06-20 01:09:01,987 - INFO - Completed request: GET http://127.0.0.1:8000/trajectory/1 in 0.0029 seconds
+2025-06-20 01:09:07,186 - INFO - Incoming request: GET http://127.0.0.1:8000/trajectory/11
+2025-06-20 01:09:07,217 - INFO - Completed request: GET http://127.0.0.1:8000/trajectory/11 in 0.0303 seconds
+2025-06-20 01:09:14,330 - INFO - Incoming request: GET http://127.0.0.1:8000/trajectories
+2025-06-20 01:09:14,362 - INFO - Completed request: GET http://127.0.0.1:8000/trajectories in 0.0311 seconds
+2025-06-20 01:10:16,973 - INFO - Incoming request: GET http://localhost:8000/
+2025-06-20 01:10:16,979 - INFO - Completed request: GET http://localhost:8000/ in 0.0058 seconds
+2025-06-20 01:14:27,549 - INFO - Incoming request: GET http://localhost:8000/
+2025-06-20 01:14:27,557 - INFO - Completed request: GET http://localhost:8000/ in 0.0065 seconds
+2025-06-20 01:14:31,000 - INFO - Incoming request: GET http://localhost:8000/
+2025-06-20 01:14:31,001 - INFO - Completed request: GET http://localhost:8000/ in 0.0004 seconds
