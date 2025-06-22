@@ -110,6 +110,15 @@ Open the file `wall_robot/static/index.html` in your web browser (e.g., drag and
 - Playback controls allow you to play, pause, and reset the animation of the robot moving along the path.
 - By default, it fetches trajectory with ID 1 from the backend API. Update the ID in `index.html` as needed.
 
+
+## Overview
+
+<img width="1440" alt="Screenshot 2025-06-19 at 17 41 53" src="https://github.com/user-attachments/assets/b7244226-bab7-49d9-9b83-ce9365817bf9" />
+
+
+
+<img width="1440" alt="Screenshot 2025-06-19 at 17 42 06" src="https://github.com/user-attachments/assets/0a60c569-49c2-4ffb-ae2b-19571f95680c" />
+
 ---
 
 ## Testing
