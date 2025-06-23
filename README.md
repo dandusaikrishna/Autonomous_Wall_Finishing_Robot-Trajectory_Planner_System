@@ -111,17 +111,22 @@ Open the file `wall_robot/static/index.html` in your web browser (e.g., drag and
 - By default, it fetches trajectory with ID 1 from the backend API. Update the ID in `index.html` as needed.
 
 
-## Overview
+## 📸 UI Screenshots
 
+
+## Wall & Obstacles (Before)
 <img width="1440" alt="Screenshot 2025-06-19 at 17 41 53" src="https://github.com/user-attachments/assets/b7244226-bab7-49d9-9b83-ce9365817bf9" />
 
 
+## Wall with Trajectory (After)
 
 <img width="1440" alt="Screenshot 2025-06-19 at 17 42 06" src="https://github.com/user-attachments/assets/0a60c569-49c2-4ffb-ae2b-19571f95680c" />
 
 ---
-## DB output 
+## 🗃️ Database Preview
 
+
+## Table: trajectories
 <img width="1440" alt="Screenshot 2025-06-23 at 12 42 48" src="https://github.com/user-attachments/assets/a19d3235-0d60-46f0-a5e4-f3c99a840a50" />
 
 <img width="1440" alt="Screenshot 2025-06-23 at 12 42 43" src="https://github.com/user-attachments/assets/a6c6d34a-a32f-41ac-97b9-99921159e445" />
