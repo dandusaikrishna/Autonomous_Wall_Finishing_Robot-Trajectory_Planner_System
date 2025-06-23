@@ -150,11 +150,5 @@ pytest
 
 ---
 
-## Notes
-
-- The current coverage planning logic is a simple zig-zag pattern and does not yet avoid obstacles.
-- The project is designed to be extensible for more advanced path planning and real-time communication features.
-
----
 
 If you have any questions or need assistance, please feel free to ask.
