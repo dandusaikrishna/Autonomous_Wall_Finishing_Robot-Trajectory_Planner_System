@@ -46,32 +46,39 @@ async def websocket_endpoint(websocket: WebSocket):
     except WebSocketDisconnect:
         manager.disconnect(websocket)
 
+
 @router.post("/plan", response_model=List[TrajectoryPoint])
 def plan_trajectory(data: PlanInput):
     """
-    Basic coverage planning logic for rectangular walls with obstacles.
-    Returns a simple zig-zag path avoiding obstacles (placeholder).
+    Generates a zig-zag path for wall coverage while avoiding rectangular obstacles.
     """
     wall = data.wall
     obstacles = data.obstacles
 
-    # Validate wall dimensions
     if wall.width <= 0 or wall.height <= 0:
-        from fastapi import HTTPException
         raise HTTPException(status_code=400, detail="Wall dimensions must be positive numbers")
 
-    # Placeholder: simple zig-zag path ignoring obstacles for now
+    def is_inside_obstacle(x: float, y: float) -> bool:
+        for obs in obstacles:
+            if (obs.x <= x <= obs.x + obs.width) and (obs.y <= y <= obs.y + obs.height):
+                return True
+        return False
+
     path = []
-    step = 0.5  # 0.5 meter step
+    step = 0.5  # resolution in meters
     y = 0.0
-    direction = 1
+    direction = 1  # left-to-right or right-to-left
+
     while y <= wall.height:
         if direction == 1:
             x_range = [x * step for x in range(int(wall.width / step) + 1)]
         else:
             x_range = [x * step for x in reversed(range(int(wall.width / step) + 1))]
+
         for x in x_range:
-            path.append(TrajectoryPoint(x=x, y=y))
+            if not is_inside_obstacle(x, y):
+                path.append(TrajectoryPoint(x=x, y=y))
+            # else skip this point as it's inside an obstacle
         y += step
         direction *= -1
 
