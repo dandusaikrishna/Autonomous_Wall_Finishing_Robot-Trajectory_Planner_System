@@ -131,6 +131,17 @@ Open the file `wall_robot/static/index.html` in your web browser (e.g., drag and
 
 <img width="1440" alt="Screenshot 2025-06-23 at 12 42 43" src="https://github.com/user-attachments/assets/a6c6d34a-a32f-41ac-97b9-99921159e445" />
 
+
+
+## Demo
+
+
+
+https://github.com/user-attachments/assets/baa283f9-884c-445d-812b-f0852a911911
+
+
+
+
 ## Testing
 
 - Run automated tests using pytest:
