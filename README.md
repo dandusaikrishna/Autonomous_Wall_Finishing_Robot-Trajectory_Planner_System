@@ -1,4 +1,4 @@
-# Autonomous Wall-Finishing Robot Control System
+# Autonomous Wall-Finishing Robot – Trajectory Planner System
 
 ## Overview
 This project is a backend and frontend system designed to control an autonomous wall-finishing robot. It includes:
