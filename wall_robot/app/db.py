@@ -2,6 +2,8 @@ import sqlite3
 from sqlite3 import Connection
 from pathlib import Path
 
+# Using Sqllite
+
 DB_PATH = Path(__file__).parent.parent / "wall_robot.db"
 
 def get_connection() -> Connection:
